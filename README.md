@@ -1,3 +1,3 @@
 # Orthanc4vet
-This is an adaptation of an open-source PACS : Orthanc. 
+This is a plugin for an open-source PACS : Orthanc. 
 Our system is working specifically for vet. 
