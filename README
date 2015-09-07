@@ -1,5 +1,6 @@
 This is source-code of 4vet first version, its was created for using with Orthanc.
-In this version we want to put a button which bring to our plugin 4vet 
-Follow the pdf file : Compilation_Orthanc__4Vet_Linux.pdf.
+In this version we want to put a button which bring to our plugin 4vet.
+Follow the pdf file : Compilation_Orthanc__4Vet_Linux.pdf (in french : this file is for Orthanc but its the same steps 4vet).
+Then follow the pdf file :  Analyse_4vet01.pdf (in french)
 We can build and compile it but I think we need to modify the CMakeLists.txt make it work well. 
 
