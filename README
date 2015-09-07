@@ -1,1 +1,2 @@
-This is source-code of 4vet first version, its was created for using with Orthanc. 
+This is source-code of 4vet first version, its was created for using with Orthanc. In this Branch we need to terminate the CMakeLists.txt to build and compile it.
+
