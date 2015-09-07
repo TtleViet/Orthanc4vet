@@ -1,0 +1,42 @@
+<!--
+	Plugin Orthanc 4vet :
+	@Author : Thanh-Tuan BACH
+	@date : 24/08/2015
+  @version 0.1
+	@brief : Html default page for the plugin 4vet
+-->
+
+<!doctype html>
+
+<html lang="us">
+  <head>
+    <meta charset="utf-8" />
+    <title>Orthanc 4vet</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="4vet.js"></script>
+  </head>
+
+<body>
+
+	<h1> Bienvenue sur Orthanc 4vet </h1>
+
+	<p>	
+		Todo : 
+	<br/>	
+		*Coder en C++ pour exécuter une requête sur notre base de données orthanc4vet (c'est donc une 2eme bdd en 	plus de celle d'orthanc)
+	<br/>
+		*Exposer le résultat de cette requête sous la forme d'une nouvelle url dans notre api rest (l'api rest d'Orthanc 4vet va compléter celle d'orthanc.
+	</p>
+
+
+
+	<!-- Permet l'apparition du bouton qui est utilisé par le script 4vet.js -->
+	<h1>Patients:</h1>
+    <p>Click on the button to load patients:</p>	
+    <div id="patient" style="background-color:#cc0;">
+    </div>
+	<input type="button" id="bouton" value="Load Data" />
+
+
+
+</body>
