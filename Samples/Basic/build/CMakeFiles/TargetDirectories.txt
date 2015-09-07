@@ -1,1 +1,0 @@
-/home/tt/Bureau/4vet_01/Samples/Basic/build/CMakeFiles/PluginTest.dir
