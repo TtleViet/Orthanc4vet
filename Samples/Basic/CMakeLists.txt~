@@ -1,0 +1,19 @@
+cmake_minimum_required(VERSION 2.8)
+
+project(Basic)
+
+
+# Set a CMake, cache or environment variable to a given value.
+set(SAMPLES_ROOT ${CMAKE_SOURCE_DIR}/..) # CMAKE_SOURCE_DIR : The path to the top level of the source tree.
+include(${SAMPLES_ROOT}/Common/OrthancPlugins.cmake) # Inclusion du fichier OrthancPlugins.cmake contenant d 																											 #autres instructions
+include(${SAMPLES_ROOT}/Resources/CMake/JavaScriptLibraries.cmake)
+
+EmbedResources(
+ ORTHANC_EXPLORER  ${SAMPLES_ROOT}/Resources/OrthancExplorer.js
+  JAVASCRIPT_LIBS   ${JAVASCRIPT_LIBS_DIR}
+  ${EMBEDDED_RESOURCES}
+  )
+
+add_library(PluginTest SHARED Plugin.c) # Ajoute la librairie PLuginTest au Plugin.c, "SHARED libraries are linked dynamically and loaded at runtime" : http://www.cmake.org/cmake/help/v3.0/command/add_library.html?highlight=shared, cette fonction crée le fichier libPluginTest.so qu on utilise dans Configuration.json d Orthanc
+
+
